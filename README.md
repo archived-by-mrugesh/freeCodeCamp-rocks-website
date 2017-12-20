@@ -1,8 +1,8 @@
-# freecodecamp-rocks
+# [freeCodeCamp.rocks](https://freeCodeCamp.rocks)
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-> an unofficial fan website of the freeCodeCamp.org community
+> an unofficial fan website of the [freeCodeCamp.org](https://freeCodeCamp.org) community
 
 ## Table of Contents
 
