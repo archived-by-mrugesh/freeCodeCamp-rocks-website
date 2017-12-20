@@ -39,9 +39,6 @@ class Nav extends Component {
           <Flex py={3} align="center">
             <Box mt={2}>
               <Link to="/" style={noBorder}>
-                {/* 
-                  <H4>Home</H4>
-                */}
                 <Logo />
               </Link>
             </Box>
@@ -53,11 +50,13 @@ class Nav extends Component {
                   </Link>
                 </li>
               ))}
+              {/*
               <li>
                 <a href="#" onClick={this.toggleFormModal} style={noBorder}>
                   <Button ml={1}>Form/Modal</Button>
                 </a>
               </li>
+              */}
             </Row>
             <Flex display={["flex", "none"]} align="center" px={2} ml="auto">
               <a

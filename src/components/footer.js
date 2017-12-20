@@ -7,7 +7,7 @@ const Footer = () => {
         <hr />
         <Flex>
           <Box m={0} is="p" ml="auto">
-            Made by <a href="https://github.com/hew">hew</a>
+            Powered by <a href="https://rdhub.in/">&lt; rdhub /&gt;</a>
           </Box>
         </Flex>
       </Container>
