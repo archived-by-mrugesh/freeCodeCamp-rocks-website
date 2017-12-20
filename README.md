@@ -2,6 +2,8 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
+:rotating_light: Currently WIP :rotating_light:
+
 > an unofficial fan website of the [freeCodeCamp.org](https://freeCodeCamp.org) community
 
 ## Table of Contents
@@ -14,7 +16,8 @@
 ## Development
 
 ```
-
+npm install
+npm run develop
 ```
 
 ## Maintainers
