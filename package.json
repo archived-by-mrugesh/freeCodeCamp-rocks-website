@@ -24,6 +24,7 @@
     "dev": "gatsby develop",
     "develop": "gatsby develop",
     "lint": "lint-staged",
+    "start": "gatsby build && gatsby serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "config": {
