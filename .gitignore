@@ -60,3 +60,10 @@ typings/
 
 # ===== End Node.gitignore =====
 
+# ===== Start main .gitignore =====
+
+# Build directory
+public/
+.cache/
+
+# ===== End main .gitignore =====

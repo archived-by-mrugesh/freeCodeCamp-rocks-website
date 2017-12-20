@@ -1,19 +1,87 @@
 {
+  "private": true,
   "name": "fcc-rocks",
-  "version": "0.1.0",
   "description": "an unofficial fan website of the freeCodeCamp.org community",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author":
+    "Mrugesh Mohapatra <ama+npm@raisedadead.com> (https://raisedadead.com/)",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/rd-hub/freeCodeCamp-rocks-website#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rd-hub/freeCodeCamp-rocks-website.git"
   },
-  "author": "Mrugesh Mohapatra <ama+npm@raisedadead.com> (https://raisedadead.com/)",
-  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/rd-hub/freeCodeCamp-rocks-website/issues"
   },
-  "homepage": "https://github.com/rd-hub/freeCodeCamp-rocks-website#readme"
+  "version": "0.1.0",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "precommit": "lint-staged",
+    "commit": "git-cz",
+    "commit:retry": "git-cz --retry",
+    "commitmsg": "commitlint -e",
+    "dev": "gatsby develop",
+    "develop": "gatsby develop",
+    "lint": "lint-staged",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "commitizen.config.js"
+    }
+  },
+  "dependencies": {
+    "css-wipe": "^4.3.0",
+    "gatsby": "^1.9.76",
+    "gatsby-link": "^1.6.8",
+    "gatsby-plugin-google-analytics": "^1.0.4",
+    "gatsby-plugin-manifest": "^1.0.4",
+    "gatsby-plugin-netlify": "^1.0.4",
+    "gatsby-plugin-offline": "^1.0.4",
+    "gatsby-plugin-preact": "^1.0.3",
+    "gatsby-plugin-react-helmet": "^1.0.3",
+    "gatsby-plugin-sharp": "^1.6.2",
+    "gatsby-remark-images": "^1.5.4",
+    "gatsby-remark-prismjs": "^1.2.1",
+    "gatsby-remark-responsive-iframe": "^1.4.3",
+    "gatsby-remark-smartypants": "^1.4.3",
+    "gatsby-source-filesystem": "^1.4.3",
+    "gatsby-transformer-remark": "^1.7.1",
+    "gatsby-transformer-sharp": "^1.6.1",
+    "isemail": "^3.0.0",
+    "joi-browser": "^10.6.1",
+    "lodash": "^4.15.0",
+    "react-css-grid": "^2.0.0-0",
+    "react-enhanced-form": "^1.4.5",
+    "react-geomicons": "^2.1.0",
+    "react-modal": "^2.3.2",
+    "react-redux": "^5.0.6",
+    "redux-modal": "^1.5.3",
+    "reset-css": "^2.2.1",
+    "styled-reset": "^0.1.2",
+    "styled-system": "^1.0.8"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^5.2.5",
+    "@commitlint/config-conventional": "^5.2.3",
+    "babel-plugin-styled-components": "^1.2.0",
+    "commitizen": "^2.9.6",
+    "cz-customizable": "^5.2.0",
+    "gh-pages": "^0.12.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0",
+    "prettier": "1.9.2",
+    "prettier-package-json": "^1.4.0"
+  },
+  "engines": {
+    "node": ">8"
+  },
+  "lint-staged": {
+    "*.{js,json,css}": ["prettier --write", "git add"],
+    "package.json": ["prettier-package-json --write", "git add"]
+  }
 }
