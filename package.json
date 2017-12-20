@@ -1,0 +1,19 @@
+{
+  "name": "fcc-rocks",
+  "version": "0.1.0",
+  "description": "an unofficial fan website of the freeCodeCamp.org community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rd-hub/freeCodeCamp-rocks-website.git"
+  },
+  "author": "Mrugesh Mohapatra <ama+npm@raisedadead.com> (https://raisedadead.com/)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/rd-hub/freeCodeCamp-rocks-website/issues"
+  },
+  "homepage": "https://github.com/rd-hub/freeCodeCamp-rocks-website#readme"
+}
