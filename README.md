@@ -34,4 +34,4 @@ Small note: If editing the README, please conform to the [standard-readme](https
 
 ## License
 
-[BSD-3-Clause](License) © 2017 Mrugesh Mohapatra
+[BSD-3-Clause](LICENSE) © 2017 Mrugesh Mohapatra
